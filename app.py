@@ -23,7 +23,7 @@ def generate_qr():
     # মাঝখানে NBR লেখা (যদি না লাগে, এই অংশ কমেন্ট করে দিতে পারেন)
     draw = ImageDraw.Draw(img)
     try:
-        font = ImageFont.truetype("arialbd.ttf", 40)
+        font = ImageFont.truetype("arial.ttf", 40)
     except:
         font = ImageFont.load_default()
     text = "NBR"
